@@ -21,7 +21,7 @@ Feature: US01: Revisar mi progreso del curso
         | barra de navegación |            sección                |            mensaje del gráfico            |
         |      calendario     |        Actividad Mensual          |    Días activos: 4 / Días inactivos: 26   |
 
-    Scenario: Mostrar calendario de actividad
+    Scenario: Mostrar estadisticas de progreso por cada topico de cada nivel
         Given que el usuario se encuentra en el Home
         When pulse el botón <calendario>
         And presione el botón <Estadísticas por tópico de cada nivel>
